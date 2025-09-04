@@ -1,9 +1,10 @@
+
 import React, { useState, useRef, useEffect } from 'react'
 import axios from 'axios'
 import { FaUserCircle } from 'react-icons/fa'
 
-const Bot = () => {
-    const [messages, setMessages] = useState([])
+const Chat = () => {
+      const [messages, setMessages] = useState([])
     const [input, setInput] = useState("")
     const [loading, setLoading] = useState(false)
     const messagesEndRef = useRef(null)
@@ -54,8 +55,7 @@ const Bot = () => {
             handleSendMessage();
         }
     }
-
-    return (
+  return (
    <div className='flex flex-col min-h-screen bg-[#0d0d0d] text-white'>
          {/* Navbar & Header */}
       <header className="fixed top-0 left-0 w-full border-b border-gray-800 bg-[#0d0d0d] z-10">
@@ -125,4 +125,10 @@ const Bot = () => {
   )
 }
 
-export default Bot
+export default Chat
+
+
+
+
+
+
