@@ -1,4 +1,16 @@
 {
+    
+  "hello": "Hi, How I can help you!",
+  "can we become friend": "Yes",
+  "how are you": "I'm just a bot, but I'm doing great! How about you?",
+  "what is your name": "I'm Chatbot, your virtual assistant.",
+  "who made you": "I was created by developers to help answer your questions.",
+  "tell me a joke": "Why don't skeletons fight each other? They don't have the guts!",
+  "what is the time": "I can't see a clock, but your device should know.",
+  "bye": "Goodbye! Have a great day.",
+  "thank you": "You're welcome!",
+
+
     "what is gravity": "Gravity is the force that pulls objects toward the center of the Earth.",
     "what is photosynthesis": "The process by which plants make food using sunlight, carbon dioxide, and water.",
     "what is dna": "DNA is the molecule that carries genetic information in living organisms.",

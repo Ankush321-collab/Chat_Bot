@@ -22,7 +22,7 @@ const Bot = () => {
             if(!input.trim()) {
                 return;
             }
-            const res = await axios.post("http://localhost:5000/api/message", {
+            const res = await axios.post("https://chat-bot-1-zp8w.onrender.com/api/message", {
                 text: input,
             })
             if(res.status === 200) {

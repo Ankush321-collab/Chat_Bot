@@ -2,6 +2,7 @@ import express from "express"
 import mongoose from "mongoose"
 import dotenv from "dotenv"
 import botrouter from './routes/bot.routes.js'
+import cors from 'cors'
 
 const app = express()
 dotenv.config()
@@ -9,6 +10,7 @@ const port = process.env.PORT || 5000
 
 // middleware to parse json
 app.use(express.json());
+app.use(cors());
 
 // mount bot routes
 app.use('/api', botrouter);
