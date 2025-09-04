@@ -195,7 +195,9 @@ Example:
     "what is photosynthesis": "The process by which plants make food using sunlight, carbon dioxide, and water."
 }
 ```
+![alt text](image.png)
 
+![alt text](image-1.png)
 ## 🔍 Future Improvements
 - Add user authentication
 - Implement more sophisticated message matching
